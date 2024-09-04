@@ -1,7 +1,7 @@
 ﻿
 CREATE TABLE [dbo].[CRA](
 	[Process_Dt] [datetime] NULL,
-	[LN_Acct_Nbr_Str] [varchar](500) NULL,
+	[LN_Acct_Nbr_Str] [varchar](550) NULL,
 	[Borrower_Name] [varchar](100) NULL,
 	[Origination_Date] [datetime] NULL,
 	[Last_Renewal_Date] [datetime] NULL,
