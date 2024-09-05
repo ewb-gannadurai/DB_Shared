@@ -1,6 +1,6 @@
 ﻿
 CREATE TABLE [dbo].[CRA](
-	[Process_Dt] [datetime] NULL,
+	[Process_Dt] [datetime] NOT NULL,
 	[LN_Acct_Nbr_Str] [varchar](550) NULL,
 	[Borrower_Name] [varchar](100) NULL,
 	[Origination_Date] [datetime] NULL,
