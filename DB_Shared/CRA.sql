@@ -11,7 +11,7 @@ CREATE TABLE [dbo].[CRA](
 	[Address_Line_4] [varchar](100) NULL,
 	[Address_Line_5] [varchar](100) NULL,
 	[Address_6_Line_1] [varchar](100) NULL,
-	[Address_6_Line_2] [varchar](100) NULL,
+	[Address_6_Line_2] [varchar](3000) NULL,
 	[Address_6_Line_3] [varchar](100) NULL,
 	[Address_6_Line_4] [varchar](100) NULL,
 	[Address_6_Line_5] [varchar](100) NULL,
