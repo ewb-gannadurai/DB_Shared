@@ -34,7 +34,7 @@ CREATE TABLE [dbo].[CRA](
 	[Commitment_Amount] [money] NULL,
 	[Commitment_Increase] [money] NULL,
 	[Source] [varchar](100) NULL,
-	[Reported_This_Year] [varchar](3) NULL
+	[Reported_This_Year] [varchar](30) NULL
 ) ON [PRIMARY]
 GO
 
