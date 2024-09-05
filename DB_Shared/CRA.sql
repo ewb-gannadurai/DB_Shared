@@ -5,7 +5,7 @@ CREATE TABLE [dbo].[CRA](
 	[Borrower_Name] [varchar](100) NULL,
 	[Origination_Date] [datetime] NULL,
 	[Last_Renewal_Date] [datetime] NULL,
-	[Address_Line_1] [varchar](100) NULL,
+	[Address_Line_1] [varchar](500) NULL,
 	[Address_Line_2] [varchar](100) NULL,
 	[Address_Line_3] [varchar](100) NULL,
 	[Address_Line_4] [varchar](100) NULL,
