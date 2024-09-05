@@ -25,7 +25,7 @@ CREATE TABLE [dbo].[CRA](
 	[Note_Type_Code_Description] [varchar](100) NULL,
 	[Mgmt_Class_Code] [varchar](10) NULL,
 	[Mgmt_Class_Code_Description] [varchar](100) NULL,
-	[NAICS_Code] [int] NULL,
+	[NAICS_Code] [int] NOT NULL,
 	[CIS_Entity] [varchar](1) NULL,
 	[ILM_Request_Type] [varchar](100) NULL,
 	[Fed_Call_Code] [varchar](100) NULL,
